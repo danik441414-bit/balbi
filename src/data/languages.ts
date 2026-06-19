@@ -1,0 +1,31 @@
+export type Language = { code: string; native: string; english: string; flag: string };
+
+// EU 24 official + Albanian + Ukrainian
+export const languages: Language[] = [
+  { code: "en", native: "English", english: "English", flag: "🇬🇧" },
+  { code: "sq", native: "Shqip", english: "Albanian", flag: "🇦🇱" },
+  { code: "uk", native: "Українська", english: "Ukrainian", flag: "🇺🇦" },
+  { code: "bg", native: "Български", english: "Bulgarian", flag: "🇧🇬" },
+  { code: "hr", native: "Hrvatski", english: "Croatian", flag: "🇭🇷" },
+  { code: "cs", native: "Čeština", english: "Czech", flag: "🇨🇿" },
+  { code: "da", native: "Dansk", english: "Danish", flag: "🇩🇰" },
+  { code: "nl", native: "Nederlands", english: "Dutch", flag: "🇳🇱" },
+  { code: "et", native: "Eesti", english: "Estonian", flag: "🇪🇪" },
+  { code: "fi", native: "Suomi", english: "Finnish", flag: "🇫🇮" },
+  { code: "fr", native: "Français", english: "French", flag: "🇫🇷" },
+  { code: "de", native: "Deutsch", english: "German", flag: "🇩🇪" },
+  { code: "el", native: "Ελληνικά", english: "Greek", flag: "🇬🇷" },
+  { code: "hu", native: "Magyar", english: "Hungarian", flag: "🇭🇺" },
+  { code: "ga", native: "Gaeilge", english: "Irish", flag: "🇮🇪" },
+  { code: "it", native: "Italiano", english: "Italian", flag: "🇮🇹" },
+  { code: "lv", native: "Latviešu", english: "Latvian", flag: "🇱🇻" },
+  { code: "lt", native: "Lietuvių", english: "Lithuanian", flag: "🇱🇹" },
+  { code: "mt", native: "Malti", english: "Maltese", flag: "🇲🇹" },
+  { code: "pl", native: "Polski", english: "Polish", flag: "🇵🇱" },
+  { code: "pt", native: "Português", english: "Portuguese", flag: "🇵🇹" },
+  { code: "ro", native: "Română", english: "Romanian", flag: "🇷🇴" },
+  { code: "sk", native: "Slovenčina", english: "Slovak", flag: "🇸🇰" },
+  { code: "sl", native: "Slovenščina", english: "Slovenian", flag: "🇸🇮" },
+  { code: "es", native: "Español", english: "Spanish", flag: "🇪🇸" },
+  { code: "sv", native: "Svenska", english: "Swedish", flag: "🇸🇪" },
+];
